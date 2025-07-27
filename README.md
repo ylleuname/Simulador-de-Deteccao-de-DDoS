@@ -4,7 +4,7 @@
 
 Este projeto é um simulador de um Sistema de Detecção de Intrusão (IDS) que demonstra a evolução de técnicas para identificar ataques de **Negação de Serviço Distribuída (DDoS)**. A ferramenta evolui de uma análise simples baseada em logs para um sistema sofisticado que utiliza captura de pacotes em tempo real e um modelo de Machine Learning para detecção de anomalias.
 
-Quando um ataque é detectado, o sistema pode automaticamente bloquear o endereço IP malicioso no firewall do sistema operacional (compatível com Windows e Linux) e gera um relatório HTML dinâmico com o status do monitoramento.
+Quando um ataque é detectado, o sistema pode automaticamente bloquear o endereço IP malicioso no firewall do sistema operacional Windows (advfirewall) e gera um relatório HTML dinâmico com o status do monitoramento.
 
 ## ✨ Três Abordagens de Detecção
 
